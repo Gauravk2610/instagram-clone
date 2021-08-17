@@ -137,12 +137,14 @@ const StoryList = styled.div`
 `
 
 const User = styled.div`
-    padding: 2px 10px; 
+    margin: 0px 6px;
+    padding: 2px 4px; 
     display: flex;
     flex-direction: column;
     align-items: center;
     max-width: 70px;
     width: 100%;
+    cursor: pointer;
 `
 
 const UserImg = styled.div`
@@ -150,8 +152,8 @@ const UserImg = styled.div`
     border-radius: 100px;
     .MuiAvatar-root {
         margin: 1.5px;
-        width: 56px;
-        height: 56px;
+        width: 60px;
+        height: 60px;
     }
 `
 

@@ -1,11 +1,13 @@
 import React from 'react'
 import styled from 'styled-components'
+import PostList from './components/PostList'
 import Story from './components/Story'
 
 function Feed() {
     return (
         <Container>
             <Story />
+            <PostList />
         </Container>
     )
 }
