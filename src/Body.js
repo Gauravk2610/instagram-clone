@@ -40,5 +40,7 @@ const SubCategory = styled.div`
     padding: 0 20px;
     width: 100%;
     display: flex;
-
+    @media(max-width: 1000px) {
+        justify-content: center;
+    }
 `
